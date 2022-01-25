@@ -3,7 +3,7 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 
 # Coming online soon !
 
-[Parameters](https://github.com/Y1u/Test_Xray/blob/main/README.md#test_xray)
+[Parameters](https://github.com/Y1u/Test_Xray/blob/main/README.md#parameters)
 
 **Please contact:**
 - Yiuri Garino: yiuri.garino@cnrs.fr 
