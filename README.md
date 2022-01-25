@@ -1,9 +1,8 @@
 # Amorpheus
 A python-based software for the treatment of x-ray scattering data of amorphous and liquid systems
 
-# Coming soon online !
-Please contact:
+# Coming online soon !
 
-Yiuri: yiuri.garino@cnrs.fr
-
-Silvia: silvia.boccato@upmc.fr
+**Please contact:**
+- Yiuri Garino: yiuri.garino@cnrs.fr 
+- Silvia Boccato: silvia.boccato@upmc.fr
