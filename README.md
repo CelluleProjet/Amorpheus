@@ -8,3 +8,6 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 - Silvia Boccato: silvia.boccato@upmc.fr
 
 `fff` 
+
+  open the file RPS_v1p0.py and run the program.  
+  A test file is provided: TestFile.xy
