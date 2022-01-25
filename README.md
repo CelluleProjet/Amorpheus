@@ -7,7 +7,6 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 - Yiuri Garino: yiuri.garino@cnrs.fr 
 - Silvia Boccato: silvia.boccato@upmc.fr
 
-
-![image](https://user-images.githubusercontent.com/98404691/151005195-c53270d3-2d37-4117-b5e0-d2f54b1f80b0.png)
+![image](https://user-images.githubusercontent.com/98404691/151005378-6cbb297d-239b-40a8-94bb-c2b52a69921f.png)
 
 https://doi.org/10.1080/08957959.2022.2032032
