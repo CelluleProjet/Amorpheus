@@ -3,9 +3,9 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 
 # Coming online soon !
 
-**Please contact:**
-- Yiuri Garino: yiuri.garino@cnrs.fr 
+**To get the last version of the profram please contact:**
 - Silvia Boccato: silvia.boccato@upmc.fr
+- Yiuri Garino: yiuri.garino@cnrs.fr 
 
 ## Data treatment example on Cerium-based glass
 More details will be available here: https://doi.org/10.1080/08957959.2022.2032032
