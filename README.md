@@ -3,7 +3,7 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 
 # Coming online soon !
 
-**To get the last version of the profram please contact:**
+**To get the last version of the program please contact:**
 - Silvia Boccato: silvia.boccato@upmc.fr
 - Yiuri Garino: yiuri.garino@cnrs.fr 
 
