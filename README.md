@@ -68,7 +68,7 @@ spyder
 - *equations.py* : file of the equations, it is read by the main software
 - *Init.txt* : file with the initial parameters. A detailed description of all the parameters can be found in [Parameters](https://github.com/CelluleProjet/Amorpheus#parameters)
 - *Batch.ods* : file with the initial parameters when using the option **Batch [b]** in the main menu
-- *filename.dat* : data file, it has to appear with the same name and same extension as in the Init.txt or Batch.ods
+- *filename.dat* : data file, it has to appear with the same name and same extension as in the *Init.txt* or *Batch.ods*
 - *background.xy* : file for the background, when applicable. It has to appear with the same name and same extension as in the *Init.txt* or *Batch.ods*
 
 4) open the file Amorpheus.py in spyder and run the program. The command-line-based user interface allowing to navigate in the menu will show as:
