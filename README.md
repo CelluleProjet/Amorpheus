@@ -161,7 +161,10 @@ Amorpheus is free software: you can redistribute it and/or modify it under the t
 Amorpheus is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with Amorpheus.  If not, see <https://www.gnu.org/licenses/>.
 
+## Funding
+This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (Grant agreement No. 724690, P.I. Daniele Antonangeli).
 
 ## Acknowledgements
 The authors would like to thank Carlo Boccato for suggesting the name of this software and Micaela Pinola for help with the graphical layout of RPS tool.
-This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (Grant agreement No. 724690, P.I. Daniele Antonangeli).
+
+
