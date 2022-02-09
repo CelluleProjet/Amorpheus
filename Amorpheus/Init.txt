@@ -1,0 +1,20 @@
+[Parameters]
+Filename = Cerium.dat
+Filename background = Background.xy
+File Format = 4
+incoherent (1 on empty cell, 0 on sample) = 1
+lambda (nm) = 1
+qmin (nm-1) = 15
+qmax (nm-1) = 78
+rmin (nm) = 0.22
+bkfactor = 0.927
+density (at/nm3) = 34.68
+Normalization Type = 0
+SofQ = 1
+QStep = 0
+Normalization save filename = Norm
+Density rmin save filename = MinRmin
+Density qmax save filename = MinQmax
+Elements = ['Ce', 'Al', 'Ni', 'Cu', 'Fe', 'C']
+Content = [0.7 0.1 0.1 0.1 0.  0. ]
+
