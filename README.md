@@ -75,22 +75,7 @@ spyder
 ![image](https://user-images.githubusercontent.com/98404691/153197315-b1c61fbb-50a5-44e8-b68a-db13e3cfa49a.png)
 
 
-## Using RPS (Remove Peaks and Smooth) tool
 
-1) from anaconda prompt (windows) or terminal (Ubuntu & MAC) activate the virtual environment with
-```bash
-conda activate Amorpheus 
-```
-
-2) move to the folder where RPS.py is saved and launch it with
-```bash
-python RPS.py
-```
-Note that for RPS it is not necessary that the file to analyze and the python code are in the same folder.
-
-A screenshot of the program is shown here below:
-
-![RPS_new_grafical](https://user-images.githubusercontent.com/98404691/153224017-c209381e-ab5a-4f0d-a31c-3a548ea7bc52.PNG)
 
 
 ## Parameters
@@ -133,9 +118,27 @@ A thorough choice of <img src="https://render.githubusercontent.com/render/math?
     
 
 ## Data treatment example on Cerium-based glass
-More details will be available here: https://doi.org/10.1080/08957959.2022.2032032
+More details are available in [Documentation](https://github.com/CelluleProjet/Amorpheus#documentation)
 
 ![image](https://user-images.githubusercontent.com/98404691/151006151-e68388bd-9edc-466d-898f-be6d8dfa321f.png)    
+
+
+## Using RPS (Remove Peaks and Smooth) tool
+
+1) from anaconda prompt (windows) or terminal (Ubuntu & MAC) activate the virtual environment with
+```bash
+conda activate Amorpheus 
+```
+
+2) move to the folder where RPS.py is saved and launch it with
+```bash
+python RPS.py
+```
+Note that for RPS it is not necessary that the file to analyze and the python code are in the same folder.
+
+A screenshot of the program is shown here below:
+
+![RPS_new_grafical](https://user-images.githubusercontent.com/98404691/153224017-c209381e-ab5a-4f0d-a31c-3a548ea7bc52.PNG)
 
 
 ## Licence
