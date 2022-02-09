@@ -1,8 +1,8 @@
 # Amorpheus
-A python-based software for the treatment of x-ray scattering data of amorphous and liquid systems
+A Python-based software for the treatment of X-ray scattering data of amorphous and liquid systems
 
 ## Documentation - how to cite
-Boccato S., Garino Y., Morard G., Zhao B., Xu F., Sanloup C., King A., Guignot N., Clark A., Garbarino G., Morand M., Antonangeli D., Accepted in High Pressure Research, Amorpheus: A python-based software for the treatment of x-ray scattering data of amorphous and liquid systems
+Boccato S., Garino Y., Morard G., Zhao B., Xu F., Sanloup C., King A., Guignot N., Clark A., Garbarino G., Morand M., Antonangeli D., Accepted in High Pressure Research, Amorpheus: A Python-based software for the treatment of X-ray scattering data of amorphous and liquid systems
 
 https://doi.org/10.1080/08957959.2022.2032032
 
@@ -36,16 +36,16 @@ conda activate Amorpheus
 spyder
 ```
 
-6) open the file Amorpheus.py and run the program.
+6) open the file *Amorpheus.py* and run the program.
 
-Test files are provided: Cerium.dat and background.xy.
-The associated input file is Init.txt.
-Batch function can be tested with the input file Batch.ods
+Test files are provided: *Cerium.dat* and *background.xy*.
+The associated input file is *Init.txt*.
+Batch function can be tested with the input file *Batch.ods*
 
 **or**
 
-open the file RPS.py and run the program.
-A test file is provided: TestFile.xy
+open the file *RPS.py* and run the program. A test file will automatically be created and visualized. 
+
 
 7) close the virtual environment with
 ```bash
@@ -64,12 +64,12 @@ spyder
 ```
 
 3) make sure that the folder where you’re performing the analysis contains the following files
-- Amorpheus.py : the main software
-- equations.py : file of the equations, it is read by the main software
-- Init.txt : file with the initial parameters. A detailed description of all the parameters can be found in [Parameters](https://github.com/CelluleProjet/Amorpheus#parameters)
-- Batch.ods : file with the initial parameters when using the option “Batch [b]” in the main menu
-- filename.dat : data file, it has to appear with the same name and same extension as in the Init.txt or Batch.ods
-- background.xy : file for the background, when applicable. It has to appear with the same name and same extension as in the Init.txt or Batch.ods
+- *Amorpheus.py* : the main software
+- *equations.py* : file of the equations, it is read by the main software
+- *Init.txt* : file with the initial parameters. A detailed description of all the parameters can be found in [Parameters](https://github.com/CelluleProjet/Amorpheus#parameters)
+- *Batch.ods* : file with the initial parameters when using the option **Batch [b]** in the main menu
+- *filename.dat* : data file, it has to appear with the same name and same extension as in the Init.txt or Batch.ods
+- *background.xy* : file for the background, when applicable. It has to appear with the same name and same extension as in the *Init.txt* or *Batch.ods*
 
 4) open the file Amorpheus.py in spyder and run the program. The command-line-based user interface allowing to navigate in the menu will show as:
  
@@ -80,7 +80,7 @@ spyder
 
 
 ## Parameters
-An example of input file 'Init.txt' is provided for the case of the Ce-based glass presented in this work. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
+An example of input file *Init.txt* is provided for the case of the Ce-based glass presented in this work. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
 
 
 
@@ -94,9 +94,9 @@ An example of input file 'Init.txt' is provided for the case of the Ce-based gla
     
 - [4] **incoherent** (int)**:** The parameter of incoherence is set to 1 when the background was measured on the empty celland to 0 when the background was measured on the sample. In this case the sum of the incoherent scattering signals from the sample is already subtracted while subtracting the background, and in the normalization the term <img src="https://render.githubusercontent.com/render/math?math=\sum_p I_p^{incoh}(Q)"> is set to 0.
     
-- [5] **lambda** (float)**:** It is the wavelength <img src="https://render.githubusercontent.com/render/math?math=\lambda"> of x-rays expressed in nm. The software reads this parameter only in case of File Format = 1 and 2, when the conversion from angle <img src="https://render.githubusercontent.com/render/math?math=2\theta"> to scattering vector <img src="https://render.githubusercontent.com/render/math?math=Q"> is performed as <img src="https://render.githubusercontent.com/render/math?math=q = \frac{4 \pi}{\lambda} \sin\Big(\theta\Big)">. In the case of Cerium parameter lambda is set to 1 as the File Format is 4 and this value is not used. In the case of liquid iron presented in [Documentation](https://github.com/CelluleProjet/Amorpheus#documentation) this parameter was set to lambda = 0.03738.
+- [5] **lambda** (float)**:** It is the wavelength <img src="https://render.githubusercontent.com/render/math?math=\lambda"> of X-rays expressed in nm. The software reads this parameter only in case of **File Format** = 1 and 2, when the conversion from angle <img src="https://render.githubusercontent.com/render/math?math=2\theta"> to scattering vector <img src="https://render.githubusercontent.com/render/math?math=Q"> is performed as <img src="https://render.githubusercontent.com/render/math?math=q = \frac{4 \pi}{\lambda} \sin\Big(\theta\Big)">. In the case of Cerium parameter **lambda** is set to 1 as the **File Format** is 4 and this value is not used. In the case of liquid iron presented in [Documentation](https://github.com/CelluleProjet/Amorpheus#documentation) this parameter was set to **lambda** = 0.03738.
     
-- [6]-[7] **qmin - qmax** (float)**:** Parameters qmin and qmax are the limits for the <img src="https://render.githubusercontent.com/render/math?math=2\Q"> range under analysis, they always have to be expressed in <img src="https://render.githubusercontent.com/render/math?math=Q"> even with File Format = 1 and 2.
+- [6]-[7] **qmin - qmax** (float)**:** Parameters **qmin** and **qmax** are the limits for the <img src="https://render.githubusercontent.com/render/math?math=2\Q"> range under analysis, they always have to be expressed in <img src="https://render.githubusercontent.com/render/math?math=Q"> even with **File Format** = 1 and 2.
 The value of <img src="https://render.githubusercontent.com/render/math?math=Q_{min}"> has to be chosen reasonably lower than the position of the diffuse scattering peak, its precise value has little effect in locating the peaks of the radial distribution function. At the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q)"> is defined between <img src="https://render.githubusercontent.com/render/math?math=Q_{min}"> and <img src="https://render.githubusercontent.com/render/math?math=Q_{max}">, but for the aforementioned reason it is typically extrapolated at low <img src="https://render.githubusercontent.com/render/math?math=Q"> as <img src="https://render.githubusercontent.com/render/math?math=S(Q)=S(Q_{min}), \forall Q, 0 < Q < Q_{min}">. 
 A thorough choice of <img src="https://render.githubusercontent.com/render/math?math=Q_{max}"> is instead significant in the minimization of the figure of merit. The **Loop over qmax [x]** section of the software helps in the choice of <img src="https://render.githubusercontent.com/render/math?math=Q_{max}">.
     
@@ -106,7 +106,7 @@ A thorough choice of <img src="https://render.githubusercontent.com/render/math?
     
 - [10] **density** (float)**:** The value of the atomic density <img src="https://render.githubusercontent.com/render/math?math=\rho_0"> is also optimized during the minimization procedure. It is expressed in <img src="https://render.githubusercontent.com/render/math?math=at/nm^3"> and during the optimization it can take on values between -50 and +50 <img src="https://render.githubusercontent.com/render/math?math=at/nm^3"> with respect to the initial set value.
     
-- [11] **Normalization Type** (int)**:** If set to 1, leads to the use of the modification function. When Normalization Type = 0 the standard normalization is performed.
+- [11] **Normalization Type** (int)**:** If set to 1, leads to the use of the modification function. When **Normalization Type** = 0 the standard normalization is performed.
     
 - [12] **SofQ** (int)**:** If set to 1, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = S(Q_{min})"> for <img src="https://render.githubusercontent.com/render/math?math=Q < Q_{min}">. If set to 0, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = 0"> for <img src="https://render.githubusercontent.com/render/math?math=Q <Q_{min}">. The analyses shown in this work are performed with SofQ = 1. 
     
@@ -135,7 +135,7 @@ conda activate Amorpheus
 ```bash
 python RPS.py
 ```
-Note that for RPS it is not necessary that the file to analyze and the python code are in the same folder.
+Note that for RPS it is not necessary that the file to analyze and the Python code are in the same folder.
 
 A screenshot of the program is shown here below:
 
@@ -143,7 +143,7 @@ A screenshot of the program is shown here below:
 
 
 ## Licence Amorpheus
-Amorpheus: a python-based software for the treatment of x-ray scattering data of amorphous and liquid systems
+Amorpheus: a Python-based software for the treatment of X-ray scattering data of amorphous and liquid systems
 
 Copyright (c) 2020-2022 Silvia Boccato, Yiuri Garino, Guillaume Morard and Chrystele Sanloup
 
