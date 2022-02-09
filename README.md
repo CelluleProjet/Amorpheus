@@ -3,9 +3,10 @@ A python-based software for the treatment of x-ray scattering data of amorphous 
 
 ## Documentation - how to cite
 Boccato S., Garino Y., Morard G., Zhao B., Xu F., Sanloup C., King A., Guignot N., Clark A., Garbarino G., Morand M., Antonangeli D., Accepted in High Pressure Research, Amorpheus: A python-based software for the treatment of x-ray scattering data of amorphous and liquid systems
+
 https://doi.org/10.1080/08957959.2022.2032032
 
-## Contacts:
+## Contacts
 - Silvia Boccato: silvia.boccato@upmc.fr
 - Yiuri Garino: yiuri.garino@cnrs.fr 
 
