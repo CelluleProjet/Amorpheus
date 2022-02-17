@@ -80,7 +80,7 @@ spyder
 
 
 ## Parameters
-An example of input file *Init.txt* is provided for the case of the Ce-based glass presented in this work. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
+An example of input file *Init.txt* is provided for the case of the Ce-based glass presented in the [Data treatment](https://github.com/CelluleProjet/Amorpheus/#data-treatment-example-on-cerium-based-glass) here below. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
 
 
 
@@ -108,7 +108,7 @@ A thorough choice of <img src="https://render.githubusercontent.com/render/math?
     
 - [11] **Normalization Type** (int)**:** If set to 1, leads to the use of the modification function. When **Normalization Type** = 0 the standard normalization is performed.
     
-- [12] **SofQ** (int)**:** If set to 1, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = S(Q_{min})"> for <img src="https://render.githubusercontent.com/render/math?math=Q < Q_{min}">. If set to 0, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = 0"> for <img src="https://render.githubusercontent.com/render/math?math=Q <Q_{min}">. The analyses shown in this work are performed with SofQ = 1. 
+- [12] **SofQ** (int)**:** If set to 1, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = S(Q_{min})"> for <img src="https://render.githubusercontent.com/render/math?math=Q < Q_{min}">. If set to 0, at the first iteration <img src="https://render.githubusercontent.com/render/math?math=S(Q) = 0"> for <img src="https://render.githubusercontent.com/render/math?math=Q <Q_{min}">. 
     
 - [13] **QStep** (int)**:** This parameter currently has to be set to 0 (it will be useful in future developments of the software).
     
