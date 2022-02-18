@@ -80,7 +80,7 @@ spyder
 
 
 ## Parameters
-An example of input file *Init.txt* is provided for the case of the Ce-based glass presented in the [Data treatment](https://github.com/CelluleProjet/Amorpheus/#data-treatment-example-on-cerium-based-glass) here below. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
+An example of input file *Init.txt* is provided for the case of the Ce-based glass shown in [Data treatment](https://github.com/CelluleProjet/Amorpheus/#data-treatment-example-on-cerium-based-glass) here below. The values of all input parameters can be changed also in the section **Parameters [p]** of the main menu. 
 
 
 
