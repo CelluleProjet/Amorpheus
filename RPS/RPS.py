@@ -2,6 +2,7 @@
 """
 
 Remove Peaks and Smooth (RPS) - Support tool for the software Amorpheus to pre-treat the data
+Version 1.0.1
 
 Principal author: Silvia Boccato (silvia.boccato@upmc.fr ), Yiuri Garino (yiuri.garino@cnrs.fr)
 Copyright (c) 2020-2022 Silvia Boccato, Yiuri Garino, Guillaume Morard and Chrystele Sanloup
@@ -430,6 +431,7 @@ def About():
     About_text = """
 
 Remove Peaks and Smooth (RPS) - Support tool for the software Amorpheus to pre-treat the data
+Version 1.0.1
 
 Principal author: Silvia Boccato (silvia.boccato@upmc.fr ), Yiuri Garino (yiuri.garino@cnrs.fr)
 
@@ -457,6 +459,7 @@ def save_file():
         return
     print(filename)
     np.savetxt(filename, np.c_[data_x,data_y_save])
+    filename.close()
 
 root = tk.Tk()
 root.option_add('*Dialog.msg.font', 'sans 10 bold')
