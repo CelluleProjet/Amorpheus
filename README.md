@@ -25,6 +25,7 @@ conda config --set channel_priority strict
 ```bash
 conda create -n Amorpheus spyder spyder-kernels xraylib=4.0.0 lmfit matplotlib periodictable ezodf configparser
 ```
+Note: This procedure will install the last Spyder version. For a stable version please use the command indicated in [Known issues](https://github.com/CelluleProjet/Amorpheus#known-issues)
 
 4) activate the virtual environment with
 ```bash
@@ -51,6 +52,18 @@ open the file *RPS.py* and run the program. A test file will automatically be cr
 ```bash
 conda deactivate
 ```
+
+### Known issues
+It is possible that the last available version of Spyder in Anaconda is not compatible with a smooth functioning of Amorpheus.
+To install a stable version of the virtual environment, delete the old environment with
+```bash
+conda env remove -n Amorpheus 
+```
+move to the Amorpheus folder with the file Amorhpeus_requirements.txt and substitute step 3. of the installation with the following command
+```bash
+conda create -n Amorpheus --file Amorhpeus_requirements.txt
+```
+
 
 ## Using Amorpheus
 1) from anaconda prompt (windows) or terminal (Ubuntu & MAC) activate the virtual environment with
