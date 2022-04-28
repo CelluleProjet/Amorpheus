@@ -59,9 +59,9 @@ To install a stable version of the virtual environment, delete the old environme
 ```bash
 conda env remove -n Amorpheus 
 ```
-move to the Amorpheus folder with the file Amorhpeus_requirements.txt and substitute step 3. of the installation with the following command
+move to the Amorpheus folder with the file Amorpheus_requirements.txt and substitute step 3. of the installation with the following command
 ```bash
-conda create -n Amorpheus --file Amorhpeus_requirements.txt
+conda create -n Amorpheus --file Amorpheus_requirements.txt
 ```
 
 
